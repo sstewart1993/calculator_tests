@@ -47,7 +47,7 @@ it('should be operatorClick', () => {
   wrapper.vm.operatorClick('+')
   wrapper.vm.numberClick('6')
   wrapper.vm.operatorClick('-')
-  wrapper.vm.numberClick(4)
+  wrapper.vm.numberClick('4')
   wrapper.vm.operatorClick('=')
   expect(wrapper.vm.runningTotal).to.equal(3)
 })
